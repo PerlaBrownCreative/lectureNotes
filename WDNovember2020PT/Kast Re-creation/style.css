@@ -1,0 +1,27 @@
+.background1{
+    background:url("assets/gradient-violet-bg.jpg"), no-repeat center fixed;
+    background-size: cover;
+    height: 1000px;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.centered{
+    margin: auto;
+    width: 690px;
+
+}
+
+.header.sticky {
+    background-color: rgba(85, 121, 119, 0.55);
+  }
+
+.header.nav-up {
+    top: -80px;
+  }
