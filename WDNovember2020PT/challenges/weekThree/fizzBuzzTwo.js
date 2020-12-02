@@ -9,22 +9,6 @@ FIZZBUZZ (functions, conditionals, and loops)
     - for any other number, console.log the value
 */
 
-// for (i = 0; i<=100; i++){
-//     console.log(i)
-//     forLoop(i)
-// }
-  
-  
-// function forLoop(i) {
-//     if (i % 3 === 0){
-//         console.log(`Fizz`);
-// }   else if (i % 5 === 0){
-//     console.log(`Buzz`);
-// }   else if (i % 3 === 0 && i % 5 ===0){
-//         console.log(`Fizz Buzz`);
-// }   else {
-//     console.log(i);
-// }}
 
 function countToOneHundred(){
     for(let i = 0; i <= 100; i++) {

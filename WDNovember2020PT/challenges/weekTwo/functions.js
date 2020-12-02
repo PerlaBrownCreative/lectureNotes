@@ -142,3 +142,15 @@ console.log(age1);
 let age2 = humanAgeOfDog(7);
 console.log(age2);
 console.log(humanAgeOfDog(11));
+
+function areaOfRectangle(length, width){
+    let area = length * width;
+    return area
+}
+console.log(areaOfRectangle(5, 3));
+
+
+let area1 = areaOfRectangle(5,2);
+let area2 = areaOfRectangle(10,2);
+console.log(area1);
+console.log(area2);

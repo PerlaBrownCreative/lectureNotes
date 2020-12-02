@@ -54,12 +54,12 @@ let netflix = {
   console.log(newArray);
 
   
-let form = {
-  restaurantName: "Subway",
-  yearBuilt: 1997,
-  Seating: "10-20", "20-90", "90+"]
-  carryOut: true,
-  whatSoftDrinksAreOffered: ["Pepsi", "Mountain Dew", "Coke", "Mellow Yellow", "Mr. Pubb", "Dr. Pepper"]
-}
+// let form = {
+//   restaurantName: "Subway",
+//   yearBuilt: 1997,
+//   Seating: "10-20", "20-90", "90+"]
+//   carryOut: true,
+//   whatSoftDrinksAreOffered: ["Pepsi", "Mountain Dew", "Coke", "Mellow Yellow", "Mr. Pubb", "Dr. Pepper"]
+// }
 
 

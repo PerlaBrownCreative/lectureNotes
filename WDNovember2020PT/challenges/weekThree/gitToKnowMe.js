@@ -49,8 +49,6 @@ let group = [ {
         favoritePotato: "mashed"
     }]
 
-    let mostRecentMovie = [];
-
     for(let i = 0; i< group.length; i++){
         console.log(group[i].mostRecentMovieWatched);
     }
