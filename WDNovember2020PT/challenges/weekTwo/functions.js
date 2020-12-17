@@ -149,8 +149,63 @@ function areaOfRectangle(length, width){
 }
 console.log(areaOfRectangle(5, 3));
 
+//trapezoid
 
 let area1 = areaOfRectangle(5,2);
 let area2 = areaOfRectangle(10,2);
 console.log(area1);
 console.log(area2);
+
+function areaOfTriangle(length, width) {
+    let area = length * width;
+    return area
+}
+
+console.log(areaOfRectangle(5, 6));
+
+
+//write a function that adds together all the numbers between any two numbers
+
+function sumAll(start, stop) {
+    let sum = start;
+    for (let i = start + 1; i <= stop; i++){
+        sum = sum + i;
+    } console.log(sum);
+
+}
+sumAll(1, 100);
+
+//Area of a trapezoid
+function areaOfTrapezoid(b1, b2, h){
+    let area = .5 * (b1 + b2) * h;
+    return area
+}
+console.log(areaOfTrapezoid(5, 3,2));
+
+function areaOfTrapezoid(b1, b2, h){
+    let area = (b1 + b2)/2 * h;
+    return area
+}
+console.log(areaOfTrapezoid(5, 3,2));
+
+
+//create a pet object
+let dog = {
+    name: "Mika",
+    isCool: true,
+    likes: ["Playing Fetch", "Food", "Mailman"],
+    age: 5,
+    gender: "Female",
+}
+
+
+
+function areaOfTrapezoid(b, c, d) {
+    let area = 
+
+}
+
+for (let i = 0; i <= 10; i++){
+    console.log(i);
+    
+}
