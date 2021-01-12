@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
     <title>Perlas Studio Ghibli App</title>
-    <link rel="stylesheet" href="api.css" class="rel">
-</head>
-<body>
-    <nav class="sticky-top navbar navbar-light" style="background-color: #323232;">
-    <ul class="nav justify-content-center">
+    <link rel="stylesheet" href="api.css" class="rel" />
+  </head>
+  <body>
+    <nav
+      class="sticky-top navbar navbar-light"
+      style="background-color: #323232"
+    >
+      <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link" href="#About">About</a>
         </li>
@@ -18,58 +26,74 @@
         </li>
       </ul>
     </nav>
-    
+
     <div id="main">
-        <div class="header">
+      <div class="header">
         <div class="container text-center">
-            <img src="assets/Studio_Ghibli_logo.svg" alt="" class="logo">
-            
+          <img src="assets/Studio_Ghibli_logo.svg" alt="" class="logo" />
         </div>
+      </div>
 
-    </div>
+      <a name="About"></a>
+      <div container class="about">
+        <div class="text-center">
+          <h3>About Studio Ghibli</h3>
+          <p class="aboutPara">
+            Studio Ghibli Inc. (Japanese: 株式会社スタジオジブリ, Hepburn:
+            Kabushiki-gaisha Sutajio Jiburi) is a Japanese animation film studio
+            headquartered in Koganei, Tokyo.[1] The studio is best known for its
+            animated feature films, and has also produced several short films,
+            television commercials, and one television film. The studio’s mascot
+            and most recognizable symbol is the character, Totoro, a giant
+            cat-like spirit from the 1988 classic, My Neighbor Totoro. Studio
+            Ghibli’s highest grossing films include fan favorites such as
+            Spirited Away (2001), Ponyo (2008), and Howl’s Moving Castle
+            (2004)[2]. This world-famous studio was founded on June 15, 1985 by
+            directors Hayao Miyazaki and Isao Takahata and producer Toshio
+            Suzuki, after the success of Topcraft's anime film Nausicaä of the
+            Valley of the Wind (1984). Studio Ghibli has also collaborated with
+            video game studios on the visual development of several video
+            games.[3] Six of Studio Ghibli's films are among the 10
+            highest-grossing anime films made in Japan, with Spirited Away
+            (2001) being the second highest, grossing over US$360 million
+            worldwide. Many of their works have won the Animage Anime Grand Prix
+            award, and four have won the Japan Academy Prize for Animation of
+            the Year. Five of Studio Ghibli's films have received Academy Award
+            nominations. On August 3, 2014, Studio Ghibli temporarily halted
+            production following the retirement of Miyazaki. In February 2017,
+            Toshio Suzuki announced that Miyazaki had come out of retirement
+            again to direct a new feature film, How Do You Live?, with Studio
+            Ghibli.
+          </p>
+        </div>
+      </div>
 
-    <a name="About"></a>
-    <div container class="about">
-
-    <div class="text-center">
-       <h3>About Studio Ghibli</h3>
-    <p class="aboutPara">
-        Studio Ghibli Inc. (Japanese: 株式会社スタジオジブリ, Hepburn: Kabushiki-gaisha Sutajio Jiburi) is a Japanese animation film studio headquartered in Koganei, Tokyo.[1] The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro. Studio Ghibli’s highest grossing films include fan favorites such as Spirited Away (2001), Ponyo (2008), and Howl’s Moving Castle (2004)[2]. This world-famous studio was founded on June 15, 1985 by directors Hayao Miyazaki and Isao Takahata and producer Toshio Suzuki, after the success of Topcraft's anime film Nausicaä of the Valley of the Wind (1984). Studio Ghibli has also collaborated with video game studios on the visual development of several video games.[3]
-        Six of Studio Ghibli's films are among the 10 highest-grossing anime films made in Japan, with Spirited Away (2001) being the second highest, grossing over US$360 million worldwide. Many of their works have won the Animage Anime Grand Prix award, and four have won the Japan Academy Prize for Animation of the Year. Five of Studio Ghibli's films have received Academy Award nominations. 
-        On August 3, 2014, Studio Ghibli temporarily halted production following the retirement of Miyazaki. In February 2017, Toshio Suzuki announced that Miyazaki had come out of retirement again to direct a new feature film, How Do You Live?, with Studio Ghibli.
-
-
-
-    </p></div></div>
-
-
-    <div class="centerOfPage">
+      <div class="centerOfPage">
         <a name="dropdown"></a>
-    <div class="text-center question">
-        <h4>Pick a movie from dropdown for more information.</h4>
-    </div>
-    <div class="container text-center">
-        <select name="movies" id="select-movies" class="selectionDrop">
-            <option value=""></option>
-        </select>
-        <hr class="line"/>
-    </div>
-
-
-
-        <div class="details" id ="movie-details">
-           
-
+        <div class="text-center question">
+          <h4>Pick a movie from the dropdown for more information.</h4>
+          <h6>
+            <i> Movie information includes title, director and description. </i>
+          </h5>
         </div>
-    </div>
-</div>
-<footer class="footer mt-auto py-3 bg-dark">
-    <div class="container text-center">
-      <span class="text-white bg-dark txtFooter"> Perla Brown Creative &#169; 2020</span>
-    </div>
-  </footer>
+        <div class="container text-center">
+          <select name="movies" id="select-movies" class="selectionDrop">
+            <option value=""></option>
+          </select>
+          <hr class="line" />
+        </div>
 
+        <div class="details" id="movie-details"></div>
+      </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container text-center">
+        <span class="text-white bg-dark txtFooter">
+          Perla Brown Creative &#169; 2020</span
+        >
+      </div>
+    </footer>
 
     <script src="api.js"></script>
-</body>
+  </body>
 </html>

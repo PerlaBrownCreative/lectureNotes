@@ -39,18 +39,25 @@ const movieOptionTags = (movieObj) => {
 
 const selectedMovieDetails = (selectedMovie) => {
     const title = document.createElement('h4')
+    const director = document.createElement('h6')
     const description = document.createElement('p')
+    
     
 
     title.innerText = selectedMovie.title;
+    director.innerText = selectedMovie.director;
     description.innerText = selectedMovie.description;
+    
 
     const movieDetailTag = document.querySelector('#movie-details');
     movieDetailTag.innerHTML = '';
 
     movieDetailTag.appendChild(title)
+    movieDetailTag.appendChild(director)
     movieDetailTag.appendChild(description)
     
 
 }
+
+
 
